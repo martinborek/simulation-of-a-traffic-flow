@@ -1,0 +1,70 @@
+# Highway Description File
+# !!! NO COMMENTS BETWEEN SEGMENT AND STAT !!!
+# Exits will be created at the beginning of the segment.
+# Stat counters will be created at the end of the segment.
+# Segment - Exit - Stat can also be written on a single line
+
+SEGMENT   1000 m   2 lanes   @ 130 kph
+ENTRYPOINT composite IN: 2.020202 s 0.23256 trucks
+STAT "D1 207.20 km - mezi Holubicemi a Brnem-vychod (zacatek)"
+
+# 1782
+SEGMENT   13000 m   2 lanes   @ 130 kph
+STAT "D1 194.2 km - Brno-centrum"
+
+SEGMENT   4100 m   2 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0741   IN: 9999999.0 s   0.23256 trucks 
+STAT "D1 190.1 km Brno-zapad (sjezd)"
+
+# 1650
+SEGMENT   7900 m   2 lanes   @ 130 kph
+EXIT   composite   OUT: 0.1048   IN: 9999999.0 s   0.23256 trucks 
+STAT "D1 182.2 km Kyvalka"
+
+# 1477
+SEGMENT  19600 m   2 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0900   IN: 9999999.0 s   0.23256 trucks 
+STAT "D1 162.6 km Velka Bites"
+
+# 1344
+SEGMENT  15900 m   2 lanes   @ 130 kph
+STAT "D1 146.7 km Velke Mezirici-vychod"
+
+SEGMENT   5700 m   2 lanes   @ 130 kph
+STAT "D1 141.0 km Velke Mezirici-zapad (sjezd)"
+
+SEGMENT   28400 m   2 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0967   IN: 9999999.0 s   0.28591 trucks 
+STAT "D1 112.6 km Jihlava"
+
+# 1214
+SEGMENT   21900 m   2 lanes   @ 130 kph
+STAT "D1 90.7 km Humpolec"
+
+SEGMENT   24700 m   2 lanes   @ 130 kph
+STAT "D1 66.0 km Loket"
+
+SEGMENT   17100 m   2 lanes   @ 130 kph
+STAT "D1 48.9 km Psare"
+
+SEGMENT   19700 m   2 lanes   @ 130 kph
+STAT "D1 29.2 km Hvezdonice"
+
+SEGMENT   8000 m   2 lanes   @ 130 kph
+STAT "D1 21.2 km Mirosovice (najezd)"
+
+SEGMENT   5800 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0   IN: 7.258 s   0.23259 trucks 
+STAT "D1 15.4 km Vsechromy (najezd)"
+
+# 1710
+SEGMENT   9200 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0   IN: 7.273 s   0.23259 trucks 
+STAT "D1 6.2 km Pruhonice"
+
+# 2205
+SEGMENT   4400 m   3 lanes   @ 130 kph
+STAT "D1 1.8 km Chodov"
+
+SEGMENT   1000 m   3 lanes   @ 300 kph
+STAT "Finish (TODO)"

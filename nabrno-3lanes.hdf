@@ -1,0 +1,74 @@
+# Highway Description File
+# !!! NO COMMENTS BETWEEN SEGMENT AND STAT !!!
+# Exits will be created at the beginning of the segment.
+# Stat counters will be created at the end of the segment.
+# Segment - Exit - Stat can also be written on a single line
+
+
+SEGMENT   1000 m   3 lanes   @ 130 kph
+ENTRYPOINT composite IN: 0.942408  s 0.23259 trucks
+STAT "D1 12.7 km mezi Modleticemi a Vsechromy (zacatek)"
+
+# 3820
+SEGMENT   2700 m   3 lanes   @ 130 kph
+STAT "D1 15.4 km Vsechromy (sjezd)"
+
+SEGMENT   5800 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.2200   IN: 9999999.0 s   0.23259 trucks 
+STAT "D1 21.2 km Mirosovice (sjezd)"
+
+# 2979.6
+SEGMENT   8000 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.3925   IN: 9999999.0 s   0.23259 trucks 
+STAT "D1 29.2 km Hvezdonice"
+
+# 1810
+SEGMENT   19700 m   3 lanes   @ 130 kph
+STAT "D1 48.9 km Psare"
+
+SEGMENT   17100 m   3 lanes   @ 130 kph
+STAT "D1 66.0 km Loket"
+
+SEGMENT   24700 m   3 lanes   @ 130 kph
+STAT "D1 90.7 km Humpolec"
+
+SEGMENT   21900 m   3 lanes   @ 130 kph
+STAT "D1 112.6 km Jihlava"
+
+SEGMENT   28400 m   3 lanes   @ 130 kph
+STAT "D1 141.0 km Velke Mezirici-zapad (najezd)"
+
+SEGMENT   5700 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0   IN: 24.000 s   0.28591 trucks 
+STAT "D1 146.7 km Velke Mezirici-vychod"
+
+# 1960
+SEGMENT   15900 m   3 lanes   @ 130 kph
+STAT "D1 162.6 km Velka Bites"
+
+SEGMENT   19600 m   3 lanes   @ 130 kph
+STAT "D1 182.2 km Kyvalka (najezd)"
+
+SEGMENT   7900 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0   IN: 8.824 s   0.23256 trucks 
+STAT "D1 190.1 km Brno-zapad (najezd)"
+
+# 2368
+SEGMENT   4100 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0   IN: 9.424 s   0.23256 trucks 
+STAT "D1 194.2 km - Brno-centrum (najezd)"
+
+# 2750
+SEGMENT   2300 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.0   IN: 15.517 s   0.23256 trucks 
+STAT "D1 196.5 km - Brno-jih"
+
+# 2982
+SEGMENT   4500 m   3 lanes   @ 130 kph
+STAT "D1 201.0 km - Brno-Slatina"
+
+SEGMENT   9500 m   3 lanes   @ 130 kph
+STAT "D1 210.5 km - Holubice"
+
+SEGMENT   1000 m   3 lanes   @ 300 kph
+STAT "Finish (TODO)"

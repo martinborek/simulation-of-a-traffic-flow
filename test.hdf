@@ -1,0 +1,28 @@
+# Highway Description File
+# !!! NO COMMENTS BETWEEN SEGMENT AND STAT !!!
+# Exits will be created at the beginning of the segment.
+# Stat counters will be created at the end of the segment.
+# Segment - Exit - Stat can also be written on a single line
+
+SEGMENT   3000 m   2 lanes   @ 130 kph
+ENTRYPOINT composite IN: 1 s 0.3 trucks
+STAT "D1 3.0 km"
+
+SEGMENT   3000 m   3 lanes   @ 130 kph
+STAT "D1 6.0 km"
+
+SEGMENT   4000 m   3 lanes   @ 130 kph
+EXIT   composite   OUT: 0.5   IN: 1 s   0.3 trucks 
+STAT "D1 10.0 km"
+
+SEGMENT   1000 m   3 lanes   @ 110 kph
+STAT "D1 11.0 km"
+
+SEGMENT   2000 m   1 lanes   @ 50 kph
+STAT "D1 13.0 km"
+
+SEGMENT  10000 m   4 lanes   @ 160 kph
+STAT "D1 23.0 km"
+
+SEGMENT    500 m   4 lanes   @ 300 kph
+STAT "D1 23.5 km"
